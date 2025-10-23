@@ -12,8 +12,8 @@
         <div class="title">
             <a href="{{ post.url }}" target="_blank">{{ post.title }}</a>
         </div> 
-        <div class="date">{{ post.date[:10] }} | Kategorie: {{ post.category }}</div> 
-    <div class="content">{{ post.content }}</div> <div>Koment ^ye: {{ post.comments }} | Obr zky: {{ post.images }}</div> 
+        <div class="date">Datum: {{ post.date[:10] }} | Kategorie: {{ post.category }}</div> 
+    <div class="content">{{ post.content }}</div> <div>Komentáře: {{ post.comments }} | Obrázky: {{ post.images }}</div> 
     </div> 
     {% endfor %}
 </body>
